@@ -1,0 +1,975 @@
+
+
+
+.menu{
+    float:center;
+    background-color:#FFFFFF;
+    width:30%;
+    align-content: center;
+    padding: 30px;
+    text-align: center;
+    font-size: 37px;
+    text-decoration: none;
+    font-family: 'Bakbak One';
+    margin-left:20%;
+    
+}
+.menu a {
+    text-decoration: none;
+color:#000;
+
+}
+#laranjamenu{
+   
+    background-color: #FF4500;
+    margin:5px;
+}
+#rosamenu{
+background-color: #FF1493;
+margin:5px;
+}
+#amarelomenu{
+    background-color: #FFFF00;
+    margin:5px;
+}
+#vermelhomenu{
+    background-color:#FF0000;
+    margin:5px;
+}
+#azulmenu{
+    background-color: #0000FF;
+    margin:5px;
+   
+}
+#verdemenu{
+    background-color: #1C1C;
+    margin:5px;
+}
+#marrommenu{
+    background-color: #8B4513;
+    margin:5px;
+    
+}
+#cinzamenu{
+    background-color: #808080;
+    margin:5px;
+}
+
+
+
+
+
+
+.cor {
+    margin:4px;
+    text-align: center;
+    height:auto;
+ font-size: 25px;
+ width:90%;
+}
+.cor p {
+padding: 0%;
+margin:0%;
+}
+#container{
+    color:#FFFFFF;
+    width:100%;
+   
+    
+}
+#zerozerozero{
+    background-color: #000;
+    padding:30px;
+    height:70px;
+    text-align: center;
+    border-width: medium;
+  border-style: solid;
+  border-color: #FFFFFF;
+}
+#FFFFFF{
+    background-color: #FFFFFF;
+    color:#000;
+    padding:30px;
+    height:70px;
+    text-align: center;
+}
+
+/*-------Cinza daqui para baixo-------*/
+
+#umce{
+background-color: #1C1C1C;
+padding:30px;
+height:70px;
+}
+#trintaeseis{
+background-color: #363636;
+padding:30px;
+height:70px;
+}
+#quatrof{
+background-color: #4F4F4F;
+padding:30px;
+height:70px;
+
+}
+#seisnove{
+    background-color: #696969;
+    padding:30px;
+
+    height:70px;
+    
+}
+#oitenta{
+    background-color: #808080;
+    padding:30px;
+    height:70px;
+    color:#000;
+}
+
+#anove{
+    background-color: #A9A9A9;
+    padding:30px;
+    height:70px;
+    color:#000;
+}
+#cezero{
+    background-color: #C0C0C0;
+    padding:30px;
+    height:70px;
+    color:#000;
+}
+
+#dtres{
+    background-color: #D3D3D3;
+    padding:30px;
+    height:70px;
+    color:#000;
+}
+#dece{
+    background-color: #DCDCDC;
+    padding:30px;
+    height:70px;
+    color:#000;
+}
+/*-------fim do  cinza
+
+
+
+começo da cor azul----------*/
+
+
+#seisAcincoACD{
+    background-color: #6A5ACD;
+    padding:30px;
+    height:70px;
+}
+
+#oitotresceisFFF{
+    background-color: #836FFF;
+    padding:30px;
+    height:70px;
+}
+#seisnovecinconoveCD{
+background-color: #6959CD;
+padding:30px;
+height:70px;
+}
+#quatrooitotresDoitoB{
+background-color: #483D8B;
+padding:30px;
+height:70px;
+}
+#desenovedesenovesetenta{
+    background-color: #191970;
+    padding:30px;
+    height:70px;
+}
+#quatrozerosoitozero{
+background-color: #000080;
+padding:30px;
+height:70px;
+}
+#quatrozerosoitoB{
+background-color: #00008B;
+padding:30px;
+height:70px;
+}
+#quatrozerosCD{
+    background-color: #0000CD;
+    padding:30px;
+    height:70px;
+}
+#quatrozerosFF{
+background-color: #0000FF;
+padding:30px;
+height:70px;
+}
+#seisquatronovecincoED{
+background-color: #6495ED;
+padding:30px;
+height:70px;
+}
+#quatroumseisnoveEum {
+    background-color: #4169E1;
+    padding:30px;
+    height:70px;
+}
+
+#umEnovezeroFF{
+    background-color:  #1E90FF;
+    padding:30px;
+    height:70px;
+}
+#zerozeroBFFF{
+background-color:#00BFFF ;
+padding:30px;
+height:70px;
+color: #000;
+}
+#oitoseteCEFA{
+background-color:#87CEFA;
+padding:30px;
+height:70px;
+color: #000;
+}
+#oitoseteCEEB{
+    background-color: #87CEEB;
+    padding:30px;
+    height:70px;
+    color: #000;
+}
+/*-----------fim do azul------------
+
+
+------------*/
+
+#ADDoitoEseis{
+background-color:#ADD8E6;
+padding:30px;
+height:70px;
+color: #000;
+}
+#quatroseisoitodoisBquatro     {
+    background-color:#4682B4;
+    padding:30px;
+    height:70px;
+    color: #000;
+}
+
+#bocade   {
+    background-color: #B0C4DE;
+    padding:30px;
+    height:70px;
+    color: #000;
+}
+#setezerooitozeronovezero {
+background-color:#708090;
+padding:30px;
+height:70px;
+color: #000;
+}
+#seteseteoitooitonovenove {
+background-color:#778899;
+padding:30px;
+height:70px;
+color: #000;
+}
+#zerozeroFFFF       {
+    background-color:#00FFFF;
+    padding:30px;
+    height:70px;
+    color: #000;
+}
+#zerozeroCEDum       {
+background-color: #00CED1;
+padding:30px;
+height:70px;
+color: #000;
+}
+#quatrozeroEzeroDzero      {
+background-color:#40E0D0;
+padding:30px;
+height:70px;
+color: #000;
+}
+#quatrooitoDumCC       {
+    background-color: #48D1CC;
+    padding:30px;
+    height:70px;
+    color: #000;
+}
+#vinteBdoisAA     {
+    background-color: #20B2AA  ;
+    padding:30px;
+    height:70px;
+    color:#000;
+}
+
+#zerozerooitoBoitoB   {
+    background-color:#008B8B;
+    padding:30px;
+    height:70px;
+    color:#000;
+}
+#zerozerooitentaoitenta       {
+background-color: #008080;
+padding:30px;
+height:70px;
+color:#000;
+}
+#seteFFFDquatro       {
+background-color: #7FFFD4  ;
+padding:30px;
+height:70px;
+color:#000;
+}
+#seisseisCDAA       {
+    background-color: #66CDAA  ;
+    padding:30px;
+    height:70px;
+    color:#000;
+}
+#cincoFnoveEAzero       {
+background-color: #5F9EA0  ;
+padding:30px;
+height:70px;
+color:#000;
+}
+#doisFquatroFquatroF{
+background-color: #2F4F4F  ;
+padding:30px;
+height:70px;
+color:#000;
+}
+#zerozeroFAnoveA     {
+    background-color:#00FA9A   ;
+    padding:30px;
+    height:70px;
+    color:#000;
+}
+
+#zerozeroFFseteF   {
+    background-color: #00FF7F  ;
+    padding:30px;
+    height:70px;
+    color: #000;
+}
+#noveoitoFB98       {
+background-color:#98FB98   ;
+padding:30px;
+height:70px;
+color: #000;
+}
+#novezeroEEnovezero       {
+background-color:#90EE90   ;
+padding:30px;
+height:70px;
+color: #000;
+}
+#oitoFBCoitoF       {
+    background-color:#8FBC8F   ;
+    padding:30px;
+    height:70px;
+    color: #000;
+}
+#tresCBtresseteum       {
+background-color: #3CB371  ;
+padding:30px;
+height:70px;
+color: #000;
+}
+#doisEoitoBcincosete       {
+background-color:#2E8B57   ;
+padding:30px;
+height:70px;
+color: #000;
+}
+
+/*---------------começo da cor verde------
+
+----------
+*/
+
+#zerozeroseisquatrocentos       {
+    background-color: #006400  ;
+    padding:30px;
+    height:70px;
+    color: #000;
+}
+#zerozerooitooitomil       {
+background-color:#008000  ;
+padding:30px;
+height:70px;
+color: #000;
+}
+
+#umc{
+    background-color: #1C1C  ;
+    padding:30px;
+    height:70px;
+    color: #000;
+
+}
+#doisdoisoitoBdoisdois       {
+background-color: #228B22  ;
+padding:30px;
+height:70px;
+color: #000;
+}
+#tresdoisCDtresdois       {
+    background-color: #32CD32  ;
+    padding:30px;
+    height:70px;
+    color: #000;
+    }
+    #zerozeroFFzerozero       {
+    background-color: #00FF00  ;
+    padding:30px;
+    height:70px;
+    color: #000;
+    }
+    #seteCFCzerozero     {
+        background-color: #7CFC00  ;
+        padding:30px;
+        height:70px;
+        color:#000;
+    }
+    
+    #seteFFF00   {
+        background-color: #7FFF00  ;
+        padding:30px;
+        height:70px;
+        color:#000;
+    }
+    #ADFF2F       {
+    background-color:#ADFF2F   ;
+    padding:30px;
+    height:70px;
+    color:#000;
+    }
+    #noveACD32       {
+    background-color: #9ACD32  ;
+    padding:30px;
+    height:70px;
+    color:#000;
+    }
+    #seisB8E23       {
+        background-color: #6B8E23  ;
+        padding:30px;
+        height:70px;
+        color:#000;
+    }
+    #cinco56B2F       {
+    background-color: #556B2F  ;
+    padding:30px;
+    height:70px;
+    color:#000;
+    }
+    #oito08000      {
+    background-color: #808000  ;
+    padding:30px;
+    height:70px;
+    color:#000;
+    }
+    #BDB76B{
+        background-color:#BDB76B;
+        padding:30px;
+        height:70px;
+        color:#000;
+    }
+    /*---------------fim da cor verde------
+    
+    -----------
+    ------------começo da cor marrom--
+    */
+
+    #DAA520       {
+    background-color:  #DAA520 ;
+    padding:30px;
+    height:70px;
+    color:#000;
+    }
+    #B8860B       {
+    background-color:#B8860B   ;
+    padding:30px;
+    height:70px;
+    color:#000;
+    }
+    #oitoB4513     {
+        background-color: #8B4513  ;
+        padding:30px;
+        height:70px;
+        
+    }
+    
+    #A0522D   {
+        background-color: #A0522D  ;
+        padding:30px;
+        height:70px;
+        
+    }
+    /*-----------------fim da cor marrom----
+    
+    */
+
+    #BC8F8F       {
+    background-color: #BC8F8F  ;
+    height:70px;
+    color:#000;
+    padding:30px;
+    }
+    #CD853F       {
+    background-color: #CD853F  ;
+    padding:30px;
+    height:70px;
+    
+    }
+    #D2691E       {
+        background-color:  #D2691E ;
+        padding:30px;
+        height:70px;
+        
+    }
+    #F4A460{
+        background-color: #F4A460;
+        padding:30px;
+        height:70px;
+        color: #000;
+    }
+    #FFDEAD       {
+    background-color: #FFDEAD  ;
+    padding:30px;
+    height:70px;
+    color:#000;
+    }
+    #F5DEB3       {
+    background-color: #F5DEB3  ;
+    padding:30px;
+    height:70px;
+    color:#000;
+    }
+    #DEB887       {
+        background-color: #DEB887  ;
+        padding:30px;
+        height:70px;
+        color:#000;
+    }
+    #D2B48C       {
+    background-color: #D2B48C  ;
+    padding:30px;
+    height:70px;
+    color:#000;
+    }
+    #seteB68EE       {
+    background-color: #7B68EE  ;
+    padding:30px;
+    height:70px;
+    color:#000;
+    }
+
+#nove370DB     {
+    background-color:#9370DB   ;
+    padding:30px;
+    height:70px;
+    color:#000;
+}
+
+#oitoA2BE2   {
+    background-color:#8A2BE2   ;
+    padding:30px;
+    height:70px;
+}
+#quatroB0082       {
+background-color:#4B0082   ;
+padding:30px;
+height:70px;
+}
+#nove400D3       {
+background-color:#9400D3   ;
+padding:30px;
+height:70px;
+}
+#nove932CC       {
+    background-color: #9932CC  ;
+    padding:30px;
+    height:70px;
+}
+#BA55D3       {
+background-color: #BA55D3  ;
+padding:30px;
+height:70px;
+}
+#A020F0{
+background-color:#A020F0;
+padding:30px;
+height:70px;
+}
+#oitoB008B      {
+    background-color:#8B008B   ;
+    padding:30px;
+    height:70px;
+}
+ #FF00FF      {
+background-color: #FF00FF  ;
+padding:30px;
+height:70px;
+}
+ #EE82EE      {
+background-color:  #EE82EE ;
+padding:30px;
+height:70px;
+color: #000;
+}
+#DA70D6     {
+    background-color:#DA70D6   ;
+    padding:30px;
+    height:70px;
+    color:#000;
+}
+
+#DDA0DD   {
+    background-color: #DDA0DD  ;
+    padding:30px;
+    height:70px;
+    color:#000;
+}
+/**----------------começo da cor Rosa--
+
+-------------------------------------------
+
+
+**/
+#C71585       {
+background-color:#C71585   ;
+padding:30px;
+height:70px;
+}
+#FF1493      {
+background-color:#FF1493   ;
+padding:30px;
+height:70px;
+}
+#FF69B4       {
+    background-color: #FF69B4  ;
+    padding:30px;
+    height:70px;
+}
+#DB7093       {
+background-color:#DB7093   ;
+padding:30px;
+height:70px;
+}
+#FFB6C1       {
+background-color: #FFB6C1  ;
+padding:30px;
+height:70px;
+color:#000;
+}
+#FFC0CB       {
+    background-color: #FFC0CB  ;
+    padding:30px;
+    height:70px;
+    color:#000;
+}
+#F08080       {
+background-color: #F08080  ;
+padding:30px;
+height:70px;
+}
+#CD5C5C       {
+background-color: #CD5C5C  ;
+padding:30px;
+height:70px;
+}
+#DC143C{
+    background-color: #DC143C;
+    padding:30px;
+    height:70px;
+}
+#FA8072       {
+    background-color: #FA8072  ;
+    padding:30px;
+    height:70px;
+    color:#000;
+}
+#E9967A       {
+background-color:#E9967A   ;
+color:#000;
+padding:30px;
+height:70px;
+}
+#FFA07A      {
+background-color: #FFA07A  ;
+color:#000;
+padding:30px;
+height:70px;
+}
+#FF7F50     {
+    background-color: #FF7F50  ;
+    padding:30px;
+    height:70px;
+    color:#000;
+}
+
+#FF6347   {
+    background-color:#FF6347   ;
+    padding:30px;
+    height:70px;
+    color:#000;
+}
+/*------------------fim da cor rosa-------
+
+---------------------- começo da cor vermelho
+*/
+#FF0000{
+    background-color:#FF0000;
+    padding:30px;
+    height:70px;
+
+}
+#ed2131{
+    background-color:#ed2131;
+    padding:30px;
+    height:70px;
+
+}
+
+
+
+#oito00000     {
+    background-color:#800000   ;
+    padding:30px;
+    height:70px;
+}
+
+#oitoB0000   {
+    background-color: #8B0000  ;
+    padding:30px;
+    height:70px;
+}
+#B22222       {
+background-color: #B22222  ;
+padding:30px;
+height:70px;
+}
+#A52A2A       {
+background-color: #A52A2A  ;
+padding:30px;
+height:70px;
+}
+#cem{
+    background-color: #100;
+    padding:30px;
+    height:70px;
+    text-align: center;
+}
+#duzentos{
+    background-color: #200;
+    padding:30px;
+    height:70px;
+    text-align: center;
+}
+#trezentos{
+    background-color: #300;
+    padding:30px;
+    height:70px;
+    text-align: center;
+}
+#quatrocentos{
+    background-color: #400;
+    padding:30px;
+    height:70px;
+    text-align: center;
+    
+}
+#quinhentos{
+    background-color: #500;
+    padding:30px;
+    height:70px;
+    text-align: center;
+}
+#seiscentos{
+    background-color: #600;
+    padding:30px;
+    height:70px;
+    text-align: center;
+}
+#setecentos{
+    background-color: #700;
+    padding:30px;
+    height:70px;
+    text-align: center;
+}
+#oitocentos{
+    background-color: #800;
+    padding:30px;
+    height:70px;
+    text-align: center;
+}
+
+#novecentos{
+    background-color: #900;
+    padding:30px;
+    height:70px;
+}
+
+/*-----------------------fim da cor vermelho 
+---------------
+
+---------começo da cor Laranja----*/
+
+#FF4500   {
+    background-color:#FF4500;
+    padding:30px;
+    height:70px;
+}
+#FF8C00       {
+background-color:#FF8C00;
+padding:30px;
+height:70px;
+}
+#FF9839       {
+    background-color:#FF9839;
+    padding:30px;
+    height:70px;
+}
+#FFA500       {
+background-color:#FFA500;
+padding:30px;
+height:70px;
+}
+
+/*fim da cor laranja, 
+
+---------------começo da cor Amarelo*/
+#FF100 {
+    background-color: #FF1000  ;
+    
+}
+
+#FF2000{
+    background-color: #FF2000  ;
+}
+#FF3000{
+background-color: #FF3000  ;
+}
+#FF4000{
+background-color: #FF4000;
+}
+#FF5000     {
+    background-color: #FF5000  ;
+}
+#FF6000{
+background-color: #FF6000  ;
+}
+#FF7000     {
+background-color: #FF7000  ;
+}
+#FF8000  {
+    background-color: #FF8000  ;
+}
+#FF9000      {
+background-color:#FF9000;
+}
+#FF1100   {
+background-color: #FF1100  ;
+}
+
+#FFD700       {
+    background-color:#FFD700;
+    padding:30px;
+    height:70px;
+    color:#000;
+}
+#FFFF00     {
+    background-color:#FFFF00;
+    padding:30px;
+    height:70px;
+    color:#000;
+}
+
+#F0E68C   {
+    background-color:#F0E68C;
+    padding:30px;
+    height:70px;
+    color:#000;
+}
+/*  --------------------fim da cor amarelo-----
+
+------------------*/
+
+
+/*#     {
+    background-color:   ;
+    color:#000;
+}
+
+#   {
+    background-color:   ;
+}
+#       {
+background-color:   ;
+}
+#       {
+background-color:   ;
+}
+#       {
+    background-color:   ;
+}
+#       {
+background-color:   ;
+}
+#       {
+background-color:   ;
+}
+#       {
+    background-color:   ;
+}
+#       {
+background-color:   ;
+}
+#       {
+background-color:   ;
+}*/
+@media only screen and ( max-width:720px){
+    .menu{
+        width:100%;
+        margin:0;
+
+    }
+    #laranjamenu{
+        width:85%
+    }
+    #rosamenu{
+        width:85%;
+        }
+        #amarelomenu{
+            width:85%;
+        }
+        #vermelhomenu{
+            width:85%;
+        }
+        #azulmenu{
+            width:85%;
+           
+        }
+        #verdemenu{
+            width:85%;
+        }
+        #marrommenu{
+            width:85%;
+            
+        }
+        #cinzamenu{
+           width:85%;
+        }
+    .cor{
+        width:100%;
+    }
+    .container{
+        width:100%;
+    }
+}
+    
+    
+    
