@@ -1,82 +1,45 @@
-
-
-
-.menu{
-    float:center;
-    background-color:#FFFFFF;
-    width:30%;
-    align-content: center;
-    padding: 30px;
-    text-align: center;
-    font-size: 37px;
-    text-decoration: none;
-    font-family: 'Bakbak One';
-    margin-left:20%;
-    
-}
-.menu a {
-    text-decoration: none;
-color:#000;
+ #menu{
+     margin:30px;
+ }
+ h2{
+     margin:40px;
+ }
+ #hexa {
+width:90%;
+color:#FFFFFF;
 
 }
-#laranjamenu{
-   
-    background-color: #FF4500;
-    margin:5px;
+ #hexa summary{
+    font-family:Arial, Helvetica, sans-serif;
+    cursor:pointer;
 }
-#rosamenu{
-background-color: #FF1493;
-margin:5px;
+ #hexa nav ul{
+color:#FFFFFF;
 }
-#amarelomenu{
-    background-color: #FFFF00;
-    margin:5px;
+ #hexa nav ul a{
+    color:#FFFFFF;
+    font-size:30px;
+    margin:20px;
+    font-family:Arial, Helvetica, sans-serif;
 }
-#vermelhomenu{
-    background-color:#FF0000;
-    margin:5px;
-}
-#azulmenu{
-    background-color: #0000FF;
-    margin:5px;
-   
-}
-#verdemenu{
-    background-color: #1C1C;
-    margin:5px;
-}
-#marrommenu{
-    background-color: #8B4513;
-    margin:5px;
-    
-}
-#cinzamenu{
-    background-color: #808080;
-    margin:5px;
-}
-
-
 
 
 
 
 .cor {
-    margin:4px;
+    border:2px #000 solid;
+    margin:10px auto;
     text-align: center;
-    height:auto;
+    height:90px;
  font-size: 25px;
  width:90%;
+ color:#FFFFFF;
 }
 .cor p {
 padding: 0%;
 margin:0%;
 }
-#container{
-    color:#FFFFFF;
-    width:100%;
-   
-    
-}
+
 #zerozerozero{
     background-color: #000;
     padding:30px;
@@ -932,43 +895,7 @@ background-color:   ;
 background-color:   ;
 }*/
 @media only screen and ( max-width:720px){
-    .menu{
-        width:100%;
-        margin:0;
 
-    }
-    #laranjamenu{
-        width:85%
-    }
-    #rosamenu{
-        width:85%;
-        }
-        #amarelomenu{
-            width:85%;
-        }
-        #vermelhomenu{
-            width:85%;
-        }
-        #azulmenu{
-            width:85%;
-           
-        }
-        #verdemenu{
-            width:85%;
-        }
-        #marrommenu{
-            width:85%;
-            
-        }
-        #cinzamenu{
-           width:85%;
-        }
-    .cor{
-        width:100%;
-    }
-    .container{
-        width:100%;
-    }
 }
     
     

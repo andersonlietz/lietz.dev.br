@@ -15,13 +15,29 @@
     <title>Cores em Hexadecimal</title>
 </head>
 <body>
-    <h1>Cores em hexadecimal</h1>
+    <header>
     
-       
-        <div class="geral">
-
-    <div id="container">
-        <a href="#menu">Menu de cores.</a>
+    <a href="index.php"><img src="imagens/titulo.png" class="imagem"/></a>
+    
+    
+</header>
+        <main>
+        <h1>Cores em hexadecimal</h1>
+    <article>
+    
+    <details id="hexa">
+           <summary>Menu</summary>
+           <nav>
+        <ul><a href="#laranja">Laranja</a></ul>
+        <ul><a href="#rosa">Rosa</a></ul>
+        <ul><a href="#amarelo">Amarelo</a></ul>
+        <ul><a href="#vermelho">Vermelho</a></ul>
+        <ul><a href="#azul">Azul</a></ul>
+        <ul><a href="#verde">Verde</a></ul>
+        <ul><a href="#marrom">Marrom</a></ul>
+        <ul><a href="#cinza">Cinza</a></ul>
+</nav>
+</details>
            
            
         
@@ -696,39 +712,29 @@
 
 -->
 
-
-
-
-
-
-            <div class="referrencias">
+            
             <div id="referrencias">
               <h4>Referrências:</h4>
               <a target="blank" href="https://celke.com.br/artigo/tabela-de-cores-html-nome-hexadecimal-rgb"> 
              https://celke.com.br/artigo/tabela-de-cores-html-nome-hexadecimal-rgb. Acesso em 10 de Dezembro de 2021.</a>
-
-            </div>
                 </div><!--fim da div referências-->
-</div><!--fim da div geral-->
+</article>
+                    <aside>
+<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+     In at qui soluta quasi voluptates consequatur earum alias quidem excepturi unde nostrum rem,
+      accusantium repellat quia facere ut accusamus? Vero, facere.</p>
+</aside>
+</main><!--fim da div geral-->
 
-<div class="menu">
-            <div id="menu"></div>
-        <a href="#laranja"><div id="laranjamenu">Laranja</div></a>
-        <a href="#rosa"><div id="rosamenu">Rosa</div></a> 
-        <a href="#amarelo"><div id="amarelomenu">Amarelo</div></a>
-        <a href="#vermelho"><div id="vermelhomenu">Vermelho</div></a>
-        <a href="#azul"><div id="azulmenu">Azul</div></a>
-        <a href="#verde"><div id="verdemenu">Verde</div></a>
-        <a href="#marrom"><div id="marrommenu">Marrom</div></a>
-        <a href="#cinza"><div id="cinzamenu">Cinza</div></a>
+
+    <footer>
+        <div id="gmail">
+            <p>
+                <a href="mailto:contato@lietz.dev.br">contato@lietz.dev.br</a>
+            </p>
         </div>
-
-    <div id="footer">
-        <div id="gmail"><p><a href="mailto:contato@lietz.dev.br">contato@lietz.dev.br</a></p>
-    </div>
     <div id="copy">16/10/2021-&copy;_lietz.dev.br </div>
-    </div>
-    </div>
+</footer>
     
 </body>
 </html>

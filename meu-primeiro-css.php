@@ -17,6 +17,10 @@
     <title>Meu primeiro arquivo CSS.</title>
 </head>
 <body>
+    <header>
+    <a href="index.php"><img src="imagens/titulo.png" class="imagem"/></a>
+
+    </header>
     <main>
     <article>
         <h1>Do meu primeiro Arquivo CSS até os atuais.</h1>
@@ -43,23 +47,21 @@
 <p>Depois de um ano desenvolvendo o layout dos meus sites, já ganhei uma certa experiência com os arquivos CSS.
      Este portfólio e o site <a rel= "dofollow" href="https://vacilouviroucronica.com">Vacilou, virou Crônica</a> 
      são resultados de diversos aprendizados e muita depuração de código. E é só o começo, tenho muito o que melhorar.</p>
-     <a href="index.php"><button class="voltar">Página inicial</button></a>
+    
 </article>
     <aside>
 
 
     </aside>
+    <a href="index.php"><button class="voltar">Página inicial</button></a>
 </main>
-    <div id="footer">
+    <footer>
 <div id="gmail"><p><a href="mailto:contato@lietz.dev.br">contato@lietz.dev.br</a></p>
 
 </div>
 <div id="copy">&copy; 2021-2022 lietz.dev.br </div>
 <p>Desde 16/10/2021.</p>
-</div>
-
-
-
+</footer>
 
 </body>
 </html>

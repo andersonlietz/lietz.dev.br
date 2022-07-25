@@ -50,7 +50,7 @@ if(isset($_POST['nome']))
     if($senha==$confSenha)
     {
         require_once 'Classes/usuarios.php';
-    $us=new Usuario("lietzdev_projeto_comentarios","localhost","lietzdev_lietzdev","kavTg.Q#E^Hw");
+    $us = new Usuario("lietzdev_projeto_comentarios","localhost","lietzdev_lietzdev","kavTg.Q#E^Hw");
    if($us->cadastrar($nome, $email, $senha))
    { ?>
         <p class="mensagens">Cadastrado com sucesso!<a href="entrar.php">Acesse já!</a></p>

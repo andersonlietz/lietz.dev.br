@@ -1,6 +1,8 @@
 <?php
-session_start();
 require_once 'Classes/comentarios.php';
+ob_start();
+session_start();
+
 $c = new Comentarios("lietzdev_projeto_comentarios","localhost","lietzdev_lietzdev","kavTg.Q#E^Hw");
 $coments = $c->buscarComentarios();
 ?>
@@ -77,9 +79,7 @@ if(!isset($_SESSION['id_usuario']))
    <?php       }else{   ?>
         <h2>Deixe seu comentário:</h2>
    <?php  }
-?>
 
-<?php
 if(isset($_SESSION['id_usuario']))
 {     ?>
   <form method="POST">
@@ -88,10 +88,7 @@ if(isset($_SESSION['id_usuario']))
   <input type="submit" value="PUBLICAR COMENTÁRIO">
   </form>
     <?php }
-
-?>
-
-<?php  
+ 
 if (count($coments) > 0)//se tiver comentarios no bd
 {
   foreach ($coments as $v) {
@@ -102,8 +99,8 @@ if (count($coments) > 0)//se tiver comentarios no bd
   <?php  $data = new DateTime($v['dia']);
   echo $data->format('d/M/Y'); 
   echo " - ";
-  echo $v['horario']; ?>
-  <?php
+  echo $v['horario'];
+
   if(isset($_SESSION['id_usuario']))
   {
     //verificando se o comentário realmente é dele
@@ -125,20 +122,12 @@ if (count($coments) > 0)//se tiver comentarios no bd
 
 <?php  }
 }else{
-    echo "Seja o primeiro a comentar neste post!";
-}
-
-?>
-
-
-
-
-
-
-</div><!--fim da div artigo-->
-</body>
-</html>
+  ?>
+  <p>
+    Seja o primeiro a comentar neste post!
+</p>
 <?php
+}
 //pegar id de exclusao
 if (isset($_GET['id_exc']))
 {
@@ -152,8 +141,6 @@ if (isset($_GET['id_exc']))
   }
   header("location: importancia-do-texto.php");
 }
-?>
-<?php
 if(isset($_POST['texto']))
 {
 $texto = addslashes($_POST['texto']);
@@ -164,9 +151,9 @@ if(isset($_SESSION['id_master']))
 {
   $c->inserirComentario($_SESSION['id_usuario'], $texto);
 }
-
 header("location: importancia-do-texto.php");
-
 }
-
 ?>
+</div><!--fim da div artigo-->
+</body>
+</html>

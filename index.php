@@ -1,6 +1,7 @@
 <?php
-require_once 'Classes/usuarios.php';
+ob_start();
 session_start();
+require_once 'Classes/usuarios.php';
 if(isset($_SESSION['id_usuario']))
 {
     $us = new Usuario("lietzdev_projeto_comentarios","localhost","lietzdev_lietzdev","kavTg.Q#E^Hw");
@@ -42,19 +43,25 @@ if(isset($_SESSION['id_usuario']))
                 if(isset($_SESSION['id_master']))
                 { ?>
                         <li><a rel="nofollow" href="dados.php">Dados</a></li>
+                        <hr>
              <?php   }
            ?>
+           <hr>
         <li><a href="game.php">Game</a></li>
+        <hr>
         <?php
             if(isset($informacoes))//se a pessoa estiver logada
             { ?>
                 <li><a rel="nofollow" href="sair.php">Sair</a></li>
+                <hr>
            <?php }else{ ?>
                 <li><a rel="nofollow" href="entrar.php">Entrar</a></li>
+                <hr>
            <?php }
         ?>
-        <li><a href="blog.php">Blog</a></li>
+        <li><a href="#blog">Blog</a></li>
     </ul>
+
            </nav>
            </details>
    </header>
@@ -93,24 +100,30 @@ if(isset($_SESSION['id_usuario']))
 		<p>Dúvidas, sugestões, possíveis parcerias ou oferta de trabalho, entre em contato comigo pelo email abaixo.</p> 
 		
 		</p>
-        
+       
 </div>
 <aside>
-    <h2>Destaques</h2>
+    <h2>Buscando estágio remoto:</h2>
 
-
+    <img src="imagens/radar.gif" class="imagem"/>
+    <div id="js_timer">
+      <div id="timer">
+        00:00
+  </div>
+   </div>
+    <h2>Atuação:</h2>
     <div class="post">
   
-  <a rel="nofollow" href="importancia-do-texto.php">A importância do texto.</a>
+  <a rel="nofollow" href="#">PHP</a>
 </div>
 
   <div class="post">
-  <a rel="dofollow" href="meu-primeiro-css.php" >Meu primeiro arquivo CSS</a>
+  <a rel="dofollow" href="#" >Cpanel</a>
 </div>
 
 <div class="post">
   
-  <a rel="nofollow" href="paleta-hexa.php">Paleta de cores em Hexadecimal</a>
+  <a rel="nofollow" href="#">MySQL</a>
 </div>
 
 
@@ -118,17 +131,59 @@ if(isset($_SESSION['id_usuario']))
 
 
 </aside>
+<section id="blog">
+
+<h2>Artigos</h2>
+
+
+<div class="post">
+
+<a href="cadeadinho-do-site-nao-aparece.php">Site alerta como “Não Seguro”: como exibir  o certificado SSL ("cadeadinho") forçando o protocolo HTTPS</a>
+</div>
+
+<div class="post">
+<a rel="dofollow" href="meu-primeiro-css.php" >Meu primeiro arquivo CSS</a>
+</div>
+
+<div class="post">
+
+<a rel="nofollow" href="paleta-hexa.php">Paleta de cores em Hexadecimal</a>
+</div>
+
+
+  </section>
 </main>
 
-<div id="footer">
+<footer>
 <div id="gmail"><p><a href="mailto:contato@lietz.dev.br">contato@lietz.dev.br</a></p>
 
 </div>
 <div id="copy">&copy; 2021-2022 lietz.dev.br </div>
 <p>Desde 16/10/2021.</p>
-</div>
+  </footer>
 
+<script type="text/javascript" charset="utf-8">
 
+function startTimer(duration, display) {
+    var timer = duration, minutes, seconds;
+    setInterval(function () {
+        minutes = parseInt(timer / 60, 10);
+        seconds = parseInt(timer % 60, 10);
+        minutes = minutes < 10 ? "0" + minutes : minutes;
+        seconds = seconds < 10 ? "0" + seconds : seconds;
+        display.textContent = minutes + ":" + seconds;
+        if (--timer < 0) {
+            timer = duration;
+        }
+    }, 1000);
+}
+window.onload = function () {
+    var duration = 40 * 1; // Converter para segundos
+        display = document.querySelector('#timer'); // selecionando o timer
+    startTimer(duration, display); // iniciando o timer
+};
+
+</script>
 </body>
 </html>
 

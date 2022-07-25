@@ -13,7 +13,6 @@ public function __construct($dbname, $host, $usuario, $senha)
     }
     
 }
-
 // cadastrar
 public function cadastrar( $nome, $email, $senha)
 {
@@ -34,8 +33,7 @@ public function cadastrar( $nome, $email, $senha)
     $cmd->execute();
     return true;
 }
-    
-}
+    }
 //logar
 public function entrar( $email, $senha)
 {
@@ -46,6 +44,7 @@ public function entrar( $email, $senha)
     if($cmd->rowCount()>0)//se foi encontrado essa pessoa
     {
             $dados=$cmd->fetch();
+            ob_start();
             session_start();
             if($dados['id'] == 1)
             {
@@ -79,10 +78,6 @@ group by usuarios.id");
 $cmd->execute();
 $dados = $cmd->fetchAll(PDO::FETCH_ASSOC);
 return $dados;
-
-
 }
-
 }
-
 ?>

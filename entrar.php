@@ -36,8 +36,7 @@ if(isset($_POST['email']))
         $us = new Usuario("lietzdev_projeto_comentarios","localhost","lietzdev_lietzdev","kavTg.Q#E^Hw");
        if($us->entrar($email, $senha))
        {
-          ?> <script> location.replace("index.php"); </script> <?php
-           //header ("location: index.php");
+           header ("location: index.php");
            
        }else{
                 echo "Email e/ou senha estão incorretos!";
