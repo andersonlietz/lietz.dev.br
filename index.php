@@ -60,8 +60,10 @@ if(isset($_SESSION['id_usuario']))
            <?php }
         ?>
         <li><a href="#blog">Blog</a></li>
+        <hr>
+        <li><a href="#projetos">Projetos</a></li>
     </ul>
-
+    
            </nav>
            </details>
    </header>
