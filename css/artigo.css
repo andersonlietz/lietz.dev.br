@@ -1,6 +1,6 @@
 *{
     padding:0;
-    margin:0;
+    margin:0
 }
 
 .artigo{
@@ -10,27 +10,26 @@ width:1100px;
 height:auto;
 float:center;
 text-align: left;
-margin:auto;
-
+margin:auto
 }
 .artigo h1{
     font-family:'Roboto Mono', monospace ;
     font-size:40px;
     margin-top:15px;
-    color:#000;
+    color:#000
 }
 form{
-    background-color: #FFFFFF;
+    background-color: #FFFFFF
 }
 form h2{
     font-family:'Microsoft YaHey Light';
     line-height: 80px;
-    margin-bottom:10px;
+    margin-bottom:10px
 }
 form img{
     width:50px;
     float:left;
-    padding: 10px;
+    padding: 10px
 }
 textarea{
     height:100px;
@@ -40,7 +39,7 @@ textarea{
     font-size: 14pt;
     margin:9px;
     font-family:arial;
-    outline:none;
+    outline:none
 }
 input[type="submit"]{
     font-family:'Arial Black';
@@ -52,37 +51,36 @@ input[type="submit"]{
     border:2px solid #008000;
     cursor:pointer;
     display:block;
-    float:right;
+    float:right
 }
 input[type="submit"]:hover{
 color:#FFFFFF;
-background-color: #008000;
+background-color: #008000
 }
 /*-------------area-comentários------*/
 .area-comentario{
 box-sizing:border-box;
 border-bottom: 1px solid gray;
 clear:both;
-padding:10px;
+padding:10px
 }
 .area-comentario img{
     width:50px;
     float:left;
-    padding:10px;
+    padding:10px
 }
 .area-comentario h3{
     float:left;
     color:rgb(0,0,139);
 font-size:12pt;
-padding:5px 10px 5px  0;
+padding:5px 10px 5px  0
 }
 .area-comentario h4{
     font-size:10pt;
     color:rgba(0, 0, 0, .6);
-    line-height:30px;
-
+    line-height:30px
 }
 .area-comentario p {
-    line-height:25px;
+    line-height:25px
 }
 
