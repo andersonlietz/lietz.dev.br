@@ -171,10 +171,10 @@ article img {
 aside{
     border:solid #008000;
     height:auto;
-    width:26%;
+    width:28%;
     float:left;
     padding:3px;
-    margin-left:5%;
+    margin-left:5%
 }
 aside p {
     color:#FFFFFF
