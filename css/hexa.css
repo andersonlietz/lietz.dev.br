@@ -805,11 +805,13 @@ height:70px;
 /*fim da cor laranja, 
 
 ---------------começo da cor Amarelo*/
-#FF100 {
+#FF1000 {
     background-color: #FF1000  ;
     
 }
-
+#FF1100   {
+    background-color: #FF1100  ;
+    }
 #FF2000{
     background-color: #FF2000  ;
 }
@@ -834,18 +836,45 @@ background-color: #FF7000  ;
 #FF9000      {
 background-color:#FF9000;
 }
-#FF1100   {
-background-color: #FF1100  ;
-}
 
-#FFD700       {
-    background-color:#FFD700;
+#FFA100{
+    background-color:#FFA100;
+    padding:30px;
+    height:70px;
+}
+#FFA200{
+    background-color:#FFA200;
+    padding:30px;
+    height:70px;
+}
+#FFA300{
+    background-color:#FFA300;
+    padding:30px;
+    height:70px;
+}
+#FFA400{
+    background-color:#FFA400;
+    padding:30px;
+    height:70px;
+}
+#FFA500{
+    background-color:#FFA500;
+    padding:30px;
+    height:70px;
+}
+#FFA600{
+    background-color:#FFA600;
+    padding:30px;
+    height:70px;
+}
+#FFA700       {
+    background-color:#FFA700;
     padding:30px;
     height:70px;
     color:#000;
 }
-#FFFF00     {
-    background-color:#FFFF00;
+#FFA800     {
+    background-color:#FFA800;
     padding:30px;
     height:70px;
     color:#000;

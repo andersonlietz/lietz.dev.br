@@ -609,43 +609,64 @@
             <div class="cor">
             <div id="FFA500"><p>#FFA500</p>
             </div></div>
+            
+            <div class="cor">
+        </div id="FF1000"><p>#FF1000</p>
+            </div></div>
+
+            <div class="cor">
+        </div id="FF2000"><p>#FF2000</p>
+            </div></div>
+
+            <div class="cor">
+        </div id="FF3000"><p>#FF3000</p>
+            </div></div>
+
+            <div class="cor">
+        </div id="FF4000"><p>#FF4000</p>
+            </div></div>
+
+            <div class="cor">
+        </div id="FF6000"><p>#FF5000</p>
+            </div></div>
+
+            <div class="cor">
+        </div id="FF7000"><p>#FF7000</p>
+            </div></div>
         </div><!--fim da div laranja-->
               
-
-
-        
         <div id="amarelo"><h2>AMARELO</h2>
             <a href="#menu">Menu</a>
             <div class="cor">
-            <div id="FF1000"><p>#FF100</p>
+            <div id="FFA100"><p>#FFA100</p>
             </div></div>
 
             <div class="cor">
-            <div id="FF2000"><p>#FF200</p>
+            <div id="FFA200"><p>#FFA200</p>
 
             </div></div>
             <div class="cor">
-            <div id="FF3000"><p>#FF300</p>
+            <div id="FFA300"><p>#FFA300</p>
 
             </div></div>
             <div class="cor">
-            <div id="FF4000"><p>#FF400</p>
+            <div id="FFA400"><p>#FFA400</p>
 
             </div></div>
             <div class="cor">
-            <div id="#FF5000"><p>#FF500</p>
+            <div id="#FFA500"><p>#FFA500</p>
                 </div></div>
 
             <div class="cor">
-            <div id="FF600"><p>#FF600</p>
+            <div id="FFA600"><p>#FFA600</p>
             </div></div>
 
             <div class="cor">
-            <div id="FFD700"><p>#FFD700</p>
+            <div id="FFA700"><p>#FFA700</p>
             </div></div>
 
             <div class="cor">
-            <div id="FFFF00"><p>#FFFF00</p>
+            <div id="FFA800"><p>#FFA800</p>
              </div></div>
 
          <div class="cor">
