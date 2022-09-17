@@ -615,8 +615,8 @@
 
         
         <div id="amarelo"><h2>AMARELO</h2>
-        <a href="#menu">Menu</a>
-        <div class="cor">
+            <a href="#menu">Menu</a>
+            <div class="cor">
             <div id="FF1000"><p>#FF100</p>
             </div></div>
 
@@ -635,12 +635,10 @@
             <div class="cor">
             <div id="#FF5000"><p>#FF500</p>
                 </div></div>
-            <div class="cor">
-            <div id="   ">
 
-            </div></div>
             <div class="cor">
             <div id="FF600"><p>#FF600</p>
+            </div></div>
 
             <div class="cor">
             <div id="FFD700"><p>#FFD700</p>
@@ -652,19 +650,8 @@
 
          <div class="cor">
         <div id="F0E68C"><p>#F0E68C</p>
-     </div></div>
-
-
-        
+        </div></div>
     </div><!--fim da div amarelo-->
-
-
-
-
-
-
-
-
 <!--
     <div class="cor">
             <div id="    ">
@@ -713,19 +700,19 @@
 -->
 
             
-            <div id="referrencias">
+            <div class="referrencias">
               <h4>Referrências:</h4>
               <a target="blank" href="https://celke.com.br/artigo/tabela-de-cores-html-nome-hexadecimal-rgb"> 
              https://celke.com.br/artigo/tabela-de-cores-html-nome-hexadecimal-rgb. Acesso em 10 de Dezembro de 2021.</a>
                 </div><!--fim da div referências-->
 </article>
-                    <aside>
+                   
+</main><!--fim da div geral-->
+<aside>
 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
      In at qui soluta quasi voluptates consequatur earum alias quidem excepturi unde nostrum rem,
       accusantium repellat quia facere ut accusamus? Vero, facere.</p>
 </aside>
-</main><!--fim da div geral-->
-
 
     <footer>
         <div id="gmail">
