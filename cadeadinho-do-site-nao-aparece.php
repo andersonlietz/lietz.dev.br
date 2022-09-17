@@ -59,7 +59,10 @@
 
         
 </article>
-    <aside>
+   
+    <a href="index.php"><button class="voltar">Página inicial</button></a>
+</main>
+<aside>
     <h2>Outros Artigos:<h2>
 
 <div class="post">
@@ -72,8 +75,6 @@
 </div>
 
     </aside>
-    <a href="index.php"><button class="voltar">Página inicial</button></a>
-</main>
     <footer>
 <div id="gmail"><p><a href="mailto:contato@lietz.dev.br">contato@lietz.dev.br</a></p>
 

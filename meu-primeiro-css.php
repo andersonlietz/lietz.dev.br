@@ -49,12 +49,13 @@
      são resultados de diversos aprendizados e muita depuração de código. E é só o começo, tenho muito o que melhorar.</p>
     
 </article>
-    <aside>
-
-
-    </aside>
+   
     <a href="index.php"><button class="voltar">Página inicial</button></a>
 </main>
+<aside>
+
+
+</aside>
     <footer>
 <div id="gmail"><p><a href="mailto:contato@lietz.dev.br">contato@lietz.dev.br</a></p>
 
