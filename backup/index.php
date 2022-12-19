@@ -98,8 +98,42 @@ if(isset($_SESSION['id_usuario']))
 		é o <a rel= "dofollow" href="https://vacilouviroucronica.com">Vacilou, virou Crônica!</a>, onde posto algumas crônicas autorais.</p>
 		<p> Em ambos os sites tenho a intenção de fazer em breve, em PHP e MySQL, uma área de comentários abaixo dos posts.</p>
 		<p>Dúvidas, sugestões, possíveis parcerias ou oferta de trabalho, entre em contato comigo pelo email abaixo.</p> 
-		
-		</p>
+		<section id="projetos">
+<div class="projeto">
+<h3>Portfólio de Cabeleireira</h3>
+<img src="imagens/belcabeleireira.png">
+<p>Portfólio desenvolvido para minha cunhada: <br>
+  <a href="https://lietz.com.br">https://lietz.com.br</a></p>
+  </div>
+
+  <div class="projeto">
+  <h3>Site de Crônicas Autorais</h3>
+   <img src="imagens/vacilou.png">
+<p>Site de Crônicas autorais, que venho desenvolvendo desde 2021:
+  <a href="https://vacilouviroucronica.com"> https://vacilouviroucronica.com</a></p>
+</div>
+</section>
+<section id="blog">
+
+<h2>Artigos</h2>
+
+
+<div class="post">
+
+<a href="cadeadinho-do-site-nao-aparece.php">Site alerta como “Não Seguro”: como exibir  o certificado SSL ("cadeadinho") forçando o protocolo HTTPS</a>
+</div>
+
+<div class="post">
+<a rel="dofollow" href="meu-primeiro-css.php" >Meu primeiro arquivo CSS</a>
+</div>
+
+<div class="post">
+
+<a rel="nofollow" href="paleta-hexa.php">Paleta de cores em Hexadecimal</a>
+</div>
+  </section>
+
+  </main>
        
 </div>
 <aside>
@@ -125,35 +159,7 @@ if(isset($_SESSION['id_usuario']))
   
   <a rel="nofollow" href="#">MySQL</a>
 </div>
-
-
-
-
-
 </aside>
-<section id="blog">
-
-<h2>Artigos</h2>
-
-
-<div class="post">
-
-<a href="cadeadinho-do-site-nao-aparece.php">Site alerta como “Não Seguro”: como exibir  o certificado SSL ("cadeadinho") forçando o protocolo HTTPS</a>
-</div>
-
-<div class="post">
-<a rel="dofollow" href="meu-primeiro-css.php" >Meu primeiro arquivo CSS</a>
-</div>
-
-<div class="post">
-
-<a rel="nofollow" href="paleta-hexa.php">Paleta de cores em Hexadecimal</a>
-</div>
-
-
-  </section>
-</main>
-
 <footer>
 <div id="gmail"><p><a href="mailto:contato@lietz.dev.br">contato@lietz.dev.br</a></p>
 

@@ -63,12 +63,12 @@ if(isset($_SESSION['id_usuario']))
         <hr>
         <li><a href="#projetos">Projetos</a></li>
     </ul>
-    
+
            </nav>
            </details>
    </header>
    <main>
-<section id="bio">
+<div id="bio">
    
    <?php
    if(isset($_SESSION['id_master']) || isset($_SESSION['id_usuario']))
@@ -100,19 +100,20 @@ if(isset($_SESSION['id_usuario']))
 		é o <a rel= "dofollow" href="https://vacilouviroucronica.com">Vacilou, virou Crônica!</a>, onde posto algumas crônicas autorais.</p>
 		<p> Em ambos os sites tenho a intenção de fazer em breve, em PHP e MySQL, uma área de comentários abaixo dos posts.</p>
 		<p>Dúvidas, sugestões, possíveis parcerias ou oferta de trabalho, entre em contato comigo pelo email abaixo.</p> 
-  </section>
-<section id="projetos">
+  </div>
+    <section id="projetos">
+
 <div class="projeto">
 <h3>Portfólio de Cabeleireira</h3>
 <img src="imagens/belcabeleireira.png">
 <p>Portfólio desenvolvido para minha cunhada: <br>
-  <a href="https://lietz.com.br">https://lietz.com.br</a></p>
+  <a href="https://lietz.com.br"> https://lietz.com.br</a></p>
   </div>
 
   <div class="projeto">
   <h3>Site de Crônicas Autorais</h3>
    <img src="imagens/vacilou.png">
-<p>Site de Crônicas autorais, que venho desenvolvendo desde 2021:
+<p>Site de Crônicas autorais, que venho desenvolvendo desde 2021:<br>
   <a href="https://vacilouviroucronica.com"> https://vacilouviroucronica.com</a></p>
 </div>
 </section>
@@ -134,9 +135,16 @@ if(isset($_SESSION['id_usuario']))
 
 <a rel="nofollow" href="paleta-hexa.php">Paleta de cores em Hexadecimal</a>
 </div>
+
+<div class="post">
+
+<a rel="dofollow" href="minha-relacao-com-o.php">Minha relação com o PHP</a>
+</div>
   </section>
 
-</main>
+  </main>
+       
+
 <aside>
     <h2>Buscando estágio remoto:</h2>
 
@@ -193,15 +201,3 @@ window.onload = function () {
 </script>
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
