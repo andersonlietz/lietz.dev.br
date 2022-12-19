@@ -115,31 +115,34 @@ article{
     color:#008000
 }
 #projetos{
-    width:95%;
+    width:98%;
     height:auto;
     border:1px #FFFFFF solid;
     margin:auto
 }
+
 .projeto {
     width:95%;
     height:auto;
-    margin:10px auto;
+     margin:20px auto;
     border:1px #008000 solid;
-    display:block;
-    padding:2px
+    padding:10px
 }
+
 #projetos .projeto h3{
-    font-size:19px;
+    font-size:25px;
     font-family:Arial, Helvetica, sans-serif;
     color:#008000;
     margin:20px
 } 
+
+
 .projeto img{
     width:50%;
     height:auto;
-    margin: 2px auto;
-    margin-left:30px
+    margin:3px;
 }
+
 .projeto p{
     font-family:Arial, Helvetica, sans-serif;
     color:#008000;
@@ -340,10 +343,11 @@ main{
         margin:auto
     }
     .projeto{
-        width:98%
+        width:95%;
+        margin:auto
     }
     .projeto img{
-        width:70%
+        width:100%
     }
     button{
         width:90%
